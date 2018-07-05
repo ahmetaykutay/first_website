@@ -1,0 +1,1 @@
+'use strict';$(document).ready(function(){function a(a){$(a).each(function(){var a=$(this),b=a.data('percent');a.find('.skill-bar').css('width',b)})}var b=$('#skills');setTimeout(a('.skill-lan'),1e3),992>screen.width?$(window).on('scroll',function(){var c=$(window).scrollTop(),d=$(window).height(),e=b.offset().top;c+d>e&&a('.skill')}):setTimeout(a('.skill'),1e3)});

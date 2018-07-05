@@ -1,0 +1,17 @@
+#contact {
+    input[type='submit']{
+        color: white;
+    }
+    a{
+        color: rgb(41, 41, 41);
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 992px){
+    #contact{
+        a{
+            font-size: 2em;
+        }
+    }
+}

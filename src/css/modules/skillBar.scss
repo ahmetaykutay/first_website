@@ -1,0 +1,13 @@
+.skill, .skill-lan{
+    background-color: rgb(238, 238, 238);
+}
+.skill .skill-bar, .skill-lan .skill-bar{
+    height: 25px;
+    width: 43%;
+   transition: width 1s linear;
+}
+.skill h6{
+    line-height: 25px;
+    margin-bottom: 0;
+    color: white;
+}

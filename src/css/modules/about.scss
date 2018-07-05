@@ -1,0 +1,15 @@
+#about{
+    .skill, .skill-bar{
+        height: 10px;
+    }
+    .social-media{
+        font-size: 2em;
+        & a{
+            margin-left: 25px;
+            color: #343738;
+        }
+        & a:hover{
+            color: orange;
+        }
+    }
+}
